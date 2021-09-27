@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from "axios";
-import { BoxList, Container, List, Photo, Title } from './styles';
+import * as S from './styles';
 
 export function Main() {
 
@@ -19,20 +19,20 @@ export function Main() {
   }, [])
 
   return (
-    <Container>
+    <S.Container>
 
       {card.map((item) =>
         <>
-          <List>
-            <Title> {item.name}</Title>
-            <Photo src={item.image} />
+          <S.List>
+            <S.Title> {item.name}</S.Title>
+            <S.Photo src={item.image} />
             <div>Gender: {item.gender}</div>
             <div> Race:  {item.species}</div>
             <div> House: {item.house} </div>
-          </List>
+          </S.List>
         </>
       )}
 
-    </Container>
+    </S.Container>
   )
 }

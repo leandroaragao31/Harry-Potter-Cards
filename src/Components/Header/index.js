@@ -1,30 +1,30 @@
 import React from 'react'
 
 
-import { ListMenu, BoxList, Logo, Menu, BoxLogo } from './styles'
+import * as S from './styles'
 
 export function Header() {
   return (
     <>
-      <BoxLogo>
-      <Logo src="https://25.media.tumblr.com/tumblr_mathf6gIxq1rr59m1o1_500.gif" />
-      </BoxLogo>
-      <Menu>
-        <BoxList>
-          <ListMenu>
+      <S.BoxLogo>
+      <S.Logo src="https://25.media.tumblr.com/tumblr_mathf6gIxq1rr59m1o1_500.gif" />
+      </S.BoxLogo>
+      <S.Menu>
+        <S.BoxList>
+          <S.ListMenu>
             Home
-          </ListMenu>
-          <ListMenu>
+          </S.ListMenu>
+          <S.ListMenu>
             Escolas
-          </ListMenu>
-          <ListMenu>
+          </S.ListMenu>
+          <S.ListMenu>
             Personagens
-          </ListMenu>
-          <ListMenu>
+          </S.ListMenu>
+          <S.ListMenu>
             Feitiços
-          </ListMenu>
-        </BoxList>
-      </Menu>
+          </S.ListMenu>
+        </S.BoxList>
+      </S.Menu>
 
     </>
   )

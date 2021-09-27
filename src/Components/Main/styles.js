@@ -5,6 +5,7 @@ export const Container =styled.main`
     flex-wrap:wrap;
     justify-content:space-evenly;
     align-items:center;
+    border-bottom: solid 1vh;
     background-color:#BEBEBE;
     width:100%;
 `
@@ -14,8 +15,8 @@ export const Title =styled.h1`
 `
 
 export const Photo =styled.img`
-    width:13vw;
-   max-height:40vh;
+    width:12vw;
+   max-height:32vh;
 `
 
 export const List = styled.div`
@@ -26,6 +27,6 @@ export const List = styled.div`
     justify-content:space-evenly;
     border:solid;
     background-color:#6C7B8B;
-    width:20%;
+    width:18%;
     margin-bottom:2vh;
 `
