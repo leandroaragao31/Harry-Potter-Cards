@@ -14,17 +14,18 @@ export const Title =styled.h1`
 `
 
 export const Photo =styled.img`
-    width:10.9vw;
-    height:30.1vh;
+    width:13vw;
+   max-height:40vh;
 `
 
 export const List = styled.div`
     display:flex;
     flex-direction:column;
     align-items:center;
+    margin-left:1vw;
     justify-content:space-evenly;
     border:solid;
     background-color:#6C7B8B;
-    width:15%;
+    width:20%;
     margin-bottom:2vh;
 `

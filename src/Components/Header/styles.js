@@ -2,7 +2,9 @@ import styled  from "styled-components";
 
 
 export const Menu = styled.nav`
-          
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Explora&family=Inconsolata&display=swap');
+       
 `
 export const BoxLogo =styled.figure`
     display:flex;
@@ -17,9 +19,10 @@ export const Logo = styled.img`
 export const BoxList = styled.ul`
     display:flex;
     width:100%;
-    border:solid;
+    max-height:15vh;
+    border:1px solid;
     list-style:none;
-    background-color:#EEE8AA;
+    background-color:#FFE4B5;
     justify-content:space-evenly;
     margin-bottom:2vh;
 `
@@ -27,11 +30,17 @@ export const BoxList = styled.ul`
 export const ListMenu = styled.li`
     display:flex;
     cursor: pointer;
+    font-size:1.5vw;
     justify-content:space-evenly;
     text-align:center;
+    font-family: 'Inconsolata', monospace;
+    transition:2s;
     &:hover{
-        background-color:#B8860B;
+        transform: scale(80%);
+        
     }
+
+    
 
 
 `
