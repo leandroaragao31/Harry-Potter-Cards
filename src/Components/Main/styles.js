@@ -17,6 +17,7 @@ export const Title =styled.h1`
 export const Photo =styled.img`
     width:12vw;
    max-height:32vh;
+   cursor: pointer;
 `
 
 export const List = styled.div`
@@ -29,4 +30,10 @@ export const List = styled.div`
     background-color:#6C7B8B;
     width:18%;
     margin-bottom:2vh;
+    transition:0.5s;
+    &:hover{
+        border: 2px #6E7B8B solid;
+        transform: scale(105%)
+    }
+   
 `
