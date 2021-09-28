@@ -20,7 +20,7 @@ export function Footer(){
                     <S.Photo src="https://logodownload.org/wp-content/uploads/2018/03/gmail-logo-2-1.png" alt="email"/>
                 </S.Links>
             </ul>
-            <p><b>Desevolvido por:</b> Leandro de Aragão</p>
+            <p><b>Desenvolvido por:</b> Leandro de Aragão</p>
         </S.Container>
         </>
     )
