@@ -1,10 +1,10 @@
+import { Link } from "gatsby";
 import styled  from "styled-components";
 
 
-export const Menu = styled.nav`
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Explora&family=Inconsolata&display=swap');
-       
+export const Menu = styled.nav`
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Explora&family=Inconsolata&display=swap');      
 `
 export const BoxLogo =styled.figure`
     display:flex;
