@@ -2,13 +2,13 @@ import styled from "styled-components"
 
 
 export const Title =styled.h2`
-background-color:#BEBEBE;
+background-color:#c5c3c8;
 text-align:center;
 font-size:3vw;
 `
 
 export const Container = styled.div`
-    background-color:#BEBEBE;
+    background-color:#c5c3c8;
     display:flex;
     justify-content:space-between;
     align-items:flex-end;

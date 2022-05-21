@@ -16,10 +16,21 @@
   "dependencies": {
     "axios": "^0.21.4",
     "babel-plugin-styled-components": "^1.13.2",
-    "gatsby": "^3.13.1",
+    "gatsby": "^3.14.6",
     "gatsby-plugin-styled-components": "^4.14.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "styled-components": "^5.3.1"
-  }
+  },
+  "main": "gatsby-config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandroaragao31/Harry-Potter-Cards.git"
+  },
+  "author": "leandroaragao31",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandroaragao31/Harry-Potter-Cards/issues"
+  },
+  "homepage": "https://github.com/leandroaragao31/Harry-Potter-Cards#readme"
 }

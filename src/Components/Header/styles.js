@@ -9,6 +9,8 @@ export const Menu = styled.nav`
 export const BoxLogo =styled.figure`
     display:flex;
     justify-content:center;
+    background-color:#00020C;
+    opacity:0.8;
 `
 
 
@@ -22,9 +24,9 @@ export const BoxList = styled.ul`
     max-height:15vh;
     border:1px solid;
     list-style:none;
-    background-color:#FFE4B5;
+    background-color:#c5c3c8;
     justify-content:space-evenly;
-    margin-bottom:2vh;
+
 `
 
 export const ListMenu = styled.li`
@@ -33,14 +35,20 @@ export const ListMenu = styled.li`
     font-size:1.5vw;
     justify-content:space-evenly;
     text-align:center;
-    font-family: 'Inconsolata', monospace;
+    text-transform:capitalize;
+    font-family: 'Inconsolata', sans-serif;
     transition:2s;
     &:hover{
         transform: scale(80%);
-        
+        font-weight:bold;
     }
+`
 
-    
-
-
+export const List = styled(Link)`
+    text-decoration:none;
+    width:10vw;
+    color:#303030;
+    &:hover{
+        color:#fa5735;
+    }
 `
